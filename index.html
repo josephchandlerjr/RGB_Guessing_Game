@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<link rel="stylesheet" type="text/css" href="app.css">	
+	<title>Color Game</title>
+	
+  </head>
+  <body>
+  	<h1>The Great <span id="selectedColor"></span> Guessing Game</h1>
+
+  	<div id="stripe">
+  		<button id="newColors"></button>
+  		<span id="message"></span>
+  		<button class="difficulty" data-squares="3">EASY</button>
+  		<button class="difficulty selected" data-squares="6">HARD</button>
+  	</div>
+
+    <div id="container">
+    	<div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
